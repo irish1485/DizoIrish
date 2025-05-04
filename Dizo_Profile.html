@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>DIZO_PROFILE</title>
+    <style>
+    body {
+       height: 100vh;
+        background: linear-gradient( #89CFF0, #FFC0CB);
+    }
+</style>
+
+</head>
+<body>
+  <nav>
+    <h1 align = "center">
+      <font face ="Lato" color ="#000" size = ".1">
+           <a href="Dizo_Profile.html">Home</a> &nbsp; &nbsp;
+            <a href="AboutMe.html">About Me</a> &nbsp; &nbsp;
+            <a href="Academics.html">Academics</a> &nbsp; &nbsp;
+            <a href="Contacts.html">Contacts</a>
+     </font>
+</h1>
+    </nav>
+
+<h2 align ="center">
+  <font face ="Lato" color ="#017bf5" size ="17">
+    Welcome to my Profile!!
+  </font>
+</h2>
+
+<h3 align ="center" size ="5">
+  
+  <div id="imageContainer">
+     <img id="smallImage" width="200" height="150">
+  </div>
+  
+ <script>
+  function showImage(imagePath) {
+    var smallImage = document.getElementById('smallImage');
+    var imageContainer = document.getElementById('imageContainer');
+
+    smallImage.src = imagePath;
+    imageContainer.style.display = 'block';
+  }
+</script>
+  <div>
+     
+    <a href ="#" onclick ="showImage('IMG_20230502_200353_012.jpg');"
+       width="400" heigth="400" align ="center"> Me</a> &nbsp; &nbsp; &nbsp; &nbsp;
+    
+  </div>
+</h3>
+   
+<h4 align ="center">
+  <font face ="Lato" color ="#000" size ="3">
+    "Hallooooo! I'm Irish Dizo, a passionately lazy student.
+     I show up at school not by choice, but by necessity. 
+     Explore my profile, learn more 
+     about me, and feel free to connect!"
+  </font>
+</h4>
+
+    <footer>
+        <p>&copy;mweh!</p>
+    </footer>
+   
+</body>    
+</html>
